@@ -20,7 +20,7 @@ function AddPlant() {
       toast.error("Please Enter All Details")
       return
     }
-    const response = await axios.post(`${process.env.REACT_APP_API_URL}/plant`, {
+    const response = await axios.post(`${'https://nursary-plant-project-2.onrender.com'}/plant`, {
       name: name,
       price: price,
       category: category,

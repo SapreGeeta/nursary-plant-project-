@@ -7,7 +7,7 @@ import { Link } from 'react-router-dom'
 function PlantCard({ _id, name, category, image, price, description, loadPlants }) {
 
   const deletePlant = async (plantId) => {
-    const response = await axios.delete(`${process.env.REACT_APP_API_URL}/plant/${plantId}`)
+    const response = await axios.delete(`${'https://nursary-plant-project-2.onrender.com'}/plant/${plantId}`)
 
     toast.success(response.data.message)
 

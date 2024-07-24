@@ -31,7 +31,7 @@ function UpdatePlant() {
       return
     }
 
-    const response = await axios.get(`${process.env.REACT_APP_API_URL}/plant/${id}`)
+    const response = await axios.get(`${'https://nursary-plant-project-2.onrender.com'}/plant/${id}`)
     const { name, image, price, category, description } = response.data.data
 
     setName(name)
