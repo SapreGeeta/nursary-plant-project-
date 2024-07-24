@@ -1,0 +1,62 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+.container {
+    max-width: 800px;
+    margin: auto;
+}
+.plant-card {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #f9f9f9;
+}
+.plant-image {
+    max-width: 100px;
+    height: auto;
+    margin-right: 100px;
+    vertical-align: middle;
+}
+.plant-details {
+    display: inline-block;
+    vertical-align: middle;
+}
+.plant-name {
+    font-weight: bold;
+}
+.plant-category {
+    color: #666;
+}
+.plant-price {
+    font-size: 0.9em;
+    color: #a7286e;
+}
+.plant-description {
+    margin-top: 5px;
+    color: #333;
+}
+.button-container {
+    margin-top: 20px;
+}
+.button {
+    padding: 10px 20px;
+    background-color: #a7286e;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+    text-decoration: none;
+}
+.button:hover {
+    background-color: #a7286e;
+}
+.delete-button {
+    background-color: #a7286e;
+}
+.delete-button:hover {
+    background-color: #a7286e;
+}
