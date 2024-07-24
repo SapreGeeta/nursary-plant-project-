@@ -88,18 +88,18 @@ const putPlantID= async(req,res)=>{
      })
  }
 
-const deletePlantID =async(req,res)=>{
-        const {id}=req.params
-        
-        await Plant.deleteOne({_id:id})
-      
-        
-           res.json({
-              success:true,
-              message:"Plant Deleted Successfully",
-              data:null 
-           })
-        
+ const deletePlantID =async(req,res)=>{
+   const {id}=req.params
+   
+   await Plant.deleteOne({_id:id})
+ 
+   
+      res.json({
+         success:true,
+         message:"Plant Deleted Successfully",
+         data:null 
+      })
+   
 }
 
 export  
