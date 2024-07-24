@@ -26,7 +26,7 @@ const dbConnection=async()=>{
    const conn = await mongoose.connect(process.env.MONGO_URL)
 
    if (conn){
-      console.log("MongoDB connected successfully")
+      console.log("MongoDB connected")
    }
    else{
       console.log("MongoDB not connected")
