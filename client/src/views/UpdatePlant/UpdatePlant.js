@@ -15,7 +15,7 @@ function UpdatePlant() {
   const [description, setDescription] = useState("")
 
   const updatePlant = async () => {
-    const response = await axios.put(`${process.env.REACT_APP_API_URL}/plant/${id}`, {
+    const response = await axios.put(`${'https://nursary-plant-project-2.onrender.com'}/plant/${id}`, {
       name: name,
       category: category,
       price: price,
